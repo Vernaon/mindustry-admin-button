@@ -13,7 +13,6 @@ ui.addButton("admin-button", "admin", () => {
        rgbhex = "#";
        for(k=0; k<6; k++) {
           rgbhex+=hexref[Mathf.floor(Mathf.random() * 16)];
-print(msg);
        }
     msg+="[" + rgbhex + "]";
     }
