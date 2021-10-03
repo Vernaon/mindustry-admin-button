@@ -3,7 +3,7 @@
 	"displayName": "",
 	"author":"NothingImportant",
 	"description": "Добавляет кнопку которая делает  в чат",
-	"version": "1.2",
+	"version": "1.2.1",
 	"minGameVersion": 105,
 	"hidden": true
 }
