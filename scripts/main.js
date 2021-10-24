@@ -14,7 +14,8 @@ ui.addButton("admin-button", "admin", () => {
        for(k=0; k<6; k++) {
           rgbhex+=hexref[Mathf.floor(Mathf.random() * 16)];
        }
-    msg+="[" + rgbhex + "]";
+    let rand = Mathf.ceil(Mathf.random()*1000);
+    msg+="[" + rgbhex + "]" + ((rand == 1) ? "": "");
     }
     Call.sendChatMessage(msg);
 });
