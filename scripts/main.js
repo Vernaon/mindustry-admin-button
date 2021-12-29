@@ -10,12 +10,12 @@ ui.addButton("admin-button", "admin", () => {
     
     msg = "";
     for(i=0; i<Mathf.ceil(Mathf.random() * 16); i++) {
-       rgbhex = "#";
+       rgbhex = "[#";
        for(k=0; k<6; k++) {
           rgbhex+=hexref[Mathf.floor(Mathf.random() * 16)];
        }
     let rand = Mathf.ceil(Mathf.random()*1000);
-    msg+="[" + rgbhex + "]" + ((rand == 1) ? "": "");
+    msg+=rgbhex + "]" + ((rand == 1) ? "": "");
     }
     Call.sendChatMessage(msg);
 });
