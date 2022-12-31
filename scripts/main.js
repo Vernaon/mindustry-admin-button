@@ -11,7 +11,7 @@ Events.on(EventType.ClientLoadEvent, cons(load => {
         
         table.top().marginLeft(1000);
     }));
-};
+});
 
 function generate_and_send() {
     msg = "";
