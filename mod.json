@@ -2,8 +2,8 @@
 	"name": "admin-icon-in-chat",
 	"displayName": "Admin button",
 	"author":"NothingImportant",
-	"description": "Adds a button that sends colorful  in chat\n\nRequires DeltaNedas/ui-lib to work",
-	"version": "1.3.4",
+	"description": "Adds a button that sends colorful  in chat",
+	"version": "1.4",
 	"minGameVersion": 140,
 	"hidden": true
 }
