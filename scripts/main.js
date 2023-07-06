@@ -6,7 +6,7 @@ Events.on(EventType.ClientLoadEvent, cons(load => {
 
     const hexref = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "a", "b", "c", "d", "e", "f"];
 
-    let icons = "⚠";
+    let icons = Iconc.all;
 
     let chosen_icon = "";
 
