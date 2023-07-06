@@ -3,7 +3,7 @@
 	"displayName": "Admin button",
 	"author":"NothingImportant",
 	"description": "Adds a button that sends colorful  in chat\nUpdate: You can choose the symbol!",
-	"version": "2",
+	"version": "2.1",
 	"minGameVersion": 140,
 	"hidden": true
 }
